@@ -1,0 +1,72 @@
+/* Acabamento sênior: tipografia, foco, responsividade e componentes. */
+html { scrollbar-gutter: stable; }
+body { overflow-x: clip; -webkit-font-smoothing: antialiased; }
+img { height: auto; }
+.hero-image img, .photo-frame img, .photo-card-media img { height: 100%; }
+:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 4px; }
+.site-header { isolation: isolate; }
+.header-wrap { position: relative; }
+.header-anniversary { display: inline-flex; align-items: center; border-left: 1px solid var(--line); padding-left: 14px; font-family: Nunito,Arial,sans-serif; font-size: 11px; font-weight: 900; color: var(--blue); letter-spacing: .055em; line-height: 1.2; max-width: 105px; }
+.brand-anniversary { object-fit: contain; }
+.header-cta,.btn,.floating-whatsapp { transition: transform .2s ease, box-shadow .2s ease, background-color .2s ease; }
+.header-cta:hover,.btn:hover,.floating-whatsapp:hover { transform: translateY(-2px); }
+.header-cta:active,.btn:active,.floating-whatsapp:active { transform: translateY(0); }
+.eyebrow { letter-spacing: .08em; }
+.hero-copy h1 { text-wrap: balance; }
+.hero-copy > p,.lead,.feature-card p { text-wrap: pretty; }
+.hero-image { overflow: hidden; }
+.hero-image > img { width: 100%; object-fit: cover; }
+.hero-anniversary { gap: 25px; }
+.hero-anniversary .brand-anniversary { flex: none; }
+.hero-anniversary span { max-width: 300px; }
+.feature-card,.photo-card { transition: transform .25s ease,box-shadow .25s ease; }
+@media (hover:hover) { .feature-card:hover,.photo-card:hover { transform: translateY(-3px); box-shadow: 0 20px 45px rgba(7,36,76,.08); } }
+.feature-card h3,.photo-card h3 { text-wrap: balance; }
+.site-footer a:not(.btn):hover { text-decoration: underline; text-underline-offset: 4px; }
+.site-footer .brand-anniversary { width: 260px; max-width: 100%; height: auto; }
+.photo-frame, .photo-card-media { overflow: hidden; }
+.contact-aside address { overflow-wrap: anywhere; }
+.form-notice { background: #fff7eb; color:#6c3700; padding: 12px 15px; border: 1px solid #efd7b7; border-radius: 12px; font-size: 14px; }
+.floating-whatsapp { min-width: 96px; text-align: center; }
+@media (max-width: 1210px) { .header-anniversary { display: none; } }
+@media (max-width: 940px) {
+ .site-header:has(.main-nav.open) { box-shadow: 0 14px 36px rgba(7,36,76,.14); }
+ .main-nav.open { border-top: 1px solid var(--line); }
+ .main-nav a { min-height: 44px; display: flex; align-items: center; }
+ .hero-grid { align-items: stretch; }
+ .hero-image { width: 100%; }
+}
+@media (max-width: 640px) {
+ .header-wrap { min-height: 72px; }
+ .hero-copy { min-width: 0; }
+ .hero-copy h1 { font-size: clamp(32px, 9.5vw, 45px); line-height: 1.1; }
+ h2 { font-size: clamp(28px,8vw,36px); line-height: 1.18; }
+ .hero-image>img { height: 315px; object-position: center 38%; }
+ .hero-anniversary { flex-wrap: wrap; align-items: center; }
+ .hero-anniversary .brand-anniversary { width: min(190px,50%); }
+ .hero-anniversary span { flex: 1 1 130px; }
+ .feature-card,.photo-card { min-width: 0; }
+ .floating-whatsapp { bottom: max(14px,env(safe-area-inset-bottom)); right: 14px; }
+ .footer-base { padding-bottom: 80px; }
+ .contact-grid > * { min-width: 0; }
+}
+@media (max-width: 375px) {
+ .header-cta { padding: 9px 10px; font-size: 10px; }
+ .brand strong { font-size: 15px; }
+ .menu-toggle { width: 39px; padding-inline: 7px; }
+ .container { width: calc(100% - 28px); }
+}
+@media (prefers-reduced-motion: reduce) { .header-cta,.btn,.floating-whatsapp,.feature-card,.photo-card { transition: none !important; } }
+
+/* Lançamento: acessibilidade e estabilidade visual */
+:root{--focus-ring:#b84b00}
+.spam-trap{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important}
+.form-delivery-hint{margin:0;font-size:14px;line-height:1.5;color:#425875}
+html{overflow-x:clip}
+.feature-grid > *, .photo-grid > *, .split > *, .hero-grid > *{min-width:0}
+.hero-copy,.split-text,.footer-grid{overflow-wrap:break-word}
+a.btn:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--focus-ring);outline-offset:4px}
+button:disabled{opacity:.65;cursor:wait}
+@media(max-width:940px){.main-nav.open{z-index:250} .site-header .header-actions{flex-shrink:0}}
+@media(max-width:640px){.hero-actions .btn{max-width:100%}.hero-anniversary{justify-content:center;text-align:center}.hero-anniversary span{flex-basis:150px}.lead-form button{width:100%}.footer-base{line-height:1.7}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

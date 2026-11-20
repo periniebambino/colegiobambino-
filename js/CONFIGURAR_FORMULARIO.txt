@@ -1,0 +1,7 @@
+FORMULÁRIO OPCIONAL (não ativado até configurar o servidor de e-mail)
+
+Por padrão o formulário abre o WhatsApp com mensagem pré-preenchida. NÃO afirma enviar e-mail.
+Para enviar mensagem diretamente à secretaria, implante o Worker documentado em integracoes/formulario-worker/ e adicione ao HEAD da página Contato, ANTES de js/site.js:
+<script>window.BAMBINO_FORM_ENDPOINT = "https://SEU-WORKER.workers.dev";</script>
+Configure a proteção Turnstile conforme o LEIA_PRIMEIRO do Worker.
+Nunca incluir senha, token de e-mail nem o endereço da secretaria no JavaScript público.

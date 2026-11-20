@@ -1,0 +1,107 @@
+[
+  {
+    "original": "aula culiaria.png",
+    "arquivo_web": "assets/fotos/oficina-culinaria.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino 1.png",
+    "arquivo_web": "assets/fotos/acolhimento-bercario.webp",
+    "largura": 1672,
+    "altura": 941,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino 2.png",
+    "arquivo_web": "assets/fotos/criancas-brincando.webp",
+    "largura": 1672,
+    "altura": 941,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino para galeria 1.png",
+    "arquivo_web": "assets/fotos/brincadeiras-parque.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino para galeria 2.png",
+    "arquivo_web": "assets/fotos/esporte-quadra.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino para galeria 3.png",
+    "arquivo_web": "assets/fotos/atividade-maternal.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "maternal/index.html"
+  },
+  {
+    "original": "colegio bambino para galeria BERÇARIO.png",
+    "arquivo_web": "assets/fotos/bebe-bercario.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "bercario/index.html"
+  },
+  {
+    "original": "colegio bambino para galeria PRE 1.png",
+    "arquivo_web": "assets/fotos/turma-pre-um.webp",
+    "largura": 1449,
+    "altura": 1085,
+    "pagina": "pre-escola/index.html"
+  },
+  {
+    "original": "colegio bambino para galeria.png",
+    "arquivo_web": "assets/fotos/aprendizagem-acompanhada.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "index.html"
+  },
+  {
+    "original": "colegio bambino.png",
+    "arquivo_web": "assets/fotos/exploracao-natureza.webp",
+    "largura": 1672,
+    "altura": 941,
+    "pagina": "a-escola/index.html"
+  },
+  {
+    "original": "futebol pre dois.png",
+    "arquivo_web": "assets/fotos/futebol-pre-dois.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "pre-escola/index.html"
+  },
+  {
+    "original": "mae te amo pre 2.png",
+    "arquivo_web": "assets/fotos/dia-das-maes.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "pre-escola/index.html"
+  },
+  {
+    "original": "mercadinho pre 2.png",
+    "arquivo_web": "assets/fotos/mercadinho.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "pre-escola/index.html"
+  },
+  {
+    "original": "pre escola piscina de bolinha.png",
+    "arquivo_web": "assets/fotos/piscina-de-bolinhas.webp",
+    "largura": 1448,
+    "altura": 1086,
+    "pagina": "index.html"
+  },
+  {
+    "original": "diretoras bambino e perini.jpg",
+    "arquivo_web": "assets/fotos/diretoras-adriana-luciana.webp",
+    "largura": 904,
+    "altura": 1280,
+    "pagina": "a-escola/index.html"
+  }
+]

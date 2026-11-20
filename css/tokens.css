@@ -1,0 +1,9 @@
+/* Colégio Bambino · tokens de interface · identidade cromática aproximada das artes homologadas */
+:root {
+  --blue: #082d6a; --blue-deep: #061d49; --green: #228f38;
+  --orange: #f47700; --ink: #14294c; --muted: #5c6d80;
+  --paper: #ffffff; --mist: #f1f7f4; --line: #e5ebee;
+  --radius: 24px; --container: 1216px;
+  --shadow: 0 22px 55px rgba(7,36,76,.11);
+  --focus-ring: #f47700;
+}

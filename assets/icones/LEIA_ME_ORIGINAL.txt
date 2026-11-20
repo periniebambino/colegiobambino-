@@ -1,0 +1,9 @@
+COLÉGIO BAMBINO - 24 ícones para site
+
+PNG_TRANSPARENTE: 24 arquivos PNG com fundo transparente em tela de 256 x 256 pixels.
+PREVIA_DOS_24_ICONES.jpg: catálogo visual com nomes.
+
+USO: colocar os PNGs nas seções e cards correspondentes. O texto/legenda deve ser HTML no site (não embutido nos PNGs).
+IMPORTANTE: o ícone 06 é ILUSTRATIVO para a seção COC, reutiliza o desenho de um livro e não é a marca oficial COC.
+Logo oficial Bambino, mascote e marca oficial COC precisam usar os arquivos oficiais enviados/aprovados, não estes ícones.
+Os ícones são recortes de ilustração gerada e não são arquivos vetoriais SVG.

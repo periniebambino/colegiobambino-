@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.colegiobambino.com.br/sitemap.xml
