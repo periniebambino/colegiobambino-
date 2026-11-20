@@ -70,3 +70,35 @@ button:disabled{opacity:.65;cursor:wait}
 @media(max-width:940px){.main-nav.open{z-index:250} .site-header .header-actions{flex-shrink:0}}
 @media(max-width:640px){.hero-actions .btn{max-width:100%}.hero-anniversary{justify-content:center;text-align:center}.hero-anniversary span{flex-basis:150px}.lead-form button{width:100%}.footer-base{line-height:1.7}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* V6 — direção de arte Bambino + Perini • imagens e conversão */
+:root{--container:1220px}
+.section{padding-block:clamp(46px,6.2vw,82px)}
+.hero{padding-block:clamp(32px,5vw,70px)}
+.hero-grid{gap:clamp(24px,4vw,60px)}
+.hero-copy h1{max-width:720px;letter-spacing:-.035em}
+.hero-anniversary{margin-top:22px;padding-top:17px;border-top:1px solid rgba(8,45,106,.12)}
+.hero-anniversary .brand-anniversary{width:clamp(220px,25vw,340px)!important;max-width:100%;height:auto!important}
+.brand-anniversary{object-fit:contain}
+.coc-showcase{display:grid;grid-template-columns:1.22fr .88fr;gap:24px;align-items:stretch;margin-top:34px}
+.coc-photo,.coc-story{border-radius:26px;overflow:hidden;min-width:0}
+.coc-photo img{display:block;width:100%;height:100%;aspect-ratio:3/2;object-fit:cover}
+.coc-story{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;background:#eff8f1;padding:clamp(23px,3.2vw,45px)}
+.coc-story h3,.pedagogy-note h3{font-size:clamp(23px,2.5vw,31px);line-height:1.16;color:var(--blue);margin:10px 0}
+.coc-story p,.pedagogy-note p{color:var(--ink);line-height:1.7;margin:0 0 16px}
+.coc-signature{display:block;width:115px;height:115px;object-fit:contain;mix-blend-mode:multiply;flex:none}
+.editorial-photo-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:30px}
+.editorial-photo-card{border-radius:25px;overflow:hidden;background:#fff;box-shadow:0 12px 34px rgba(8,36,76,.07)}
+.editorial-photo-frame{overflow:hidden;aspect-ratio:3/2}
+.editorial-photo-frame img{display:block;width:100%;height:100%;object-fit:cover}
+.editorial-photo-card h3{color:var(--blue);font-size:22px;margin:18px 22px 7px}
+.editorial-photo-card p{color:var(--ink);margin:0 22px 23px;line-height:1.6}
+.director-photo-frame{height:auto!important;min-height:0!important;background:#f5eee8!important;display:flex;align-items:center;justify-content:center;overflow:visible!important;padding:12px}
+.director-photo-frame img,.director-photo-frame .director-photo{object-fit:contain!important;object-position:center!important;width:100%!important;height:auto!important;max-height:720px;aspect-ratio:auto!important;display:block}
+.director-note{font-size:14px;line-height:1.6;opacity:.88}
+.pedagogy-note{display:grid;grid-template-columns:115px 1fr;gap:24px;align-items:center;padding:28px;margin-top:28px;border-radius:23px;background:#eef8f0}
+.pedagogy-note p{margin:0}
+.section-cta{padding-block:clamp(60px,8vw,110px)}
+@media(max-width:940px){.coc-showcase{grid-template-columns:1fr}.coc-photo img{aspect-ratio:16/10}.coc-story{padding:26px}.director-photo-frame{max-width:540px;margin-inline:auto}.hero-anniversary .brand-anniversary{width:265px!important}}
+@media(max-width:640px){.section{padding-block:42px}.hero{padding-block:24px 34px}.hero-grid{gap:18px}.hero-copy h1{font-size:clamp(33px,9.2vw,43px)}.hero-anniversary{gap:10px}.hero-anniversary .brand-anniversary{width:min(260px,82%)!important}.editorial-photo-grid{grid-template-columns:1fr;gap:16px}.editorial-photo-card h3{font-size:21px}.coc-showcase{gap:14px;margin-top:22px}.coc-story{padding:22px}.coc-photo img{aspect-ratio:3/2}.pedagogy-note{grid-template-columns:1fr;gap:8px;padding:21px}.pedagogy-note .coc-signature{width:92px;height:92px}.director-photo-frame{padding:6px}.director-photo-frame img{max-height:none!important}.section-cta{padding-block:56px}.hero-image>img{height:270px!important}}
+@media(prefers-reduced-motion:reduce){.editorial-photo-frame img{transition:none}}
